@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    padding: 20px 130px ;
+    background-color:  #163A24;
+    ;
+}
+
+
+.log {
+    display: flex;
+    gap: 24px;
+    color: #FBFAF7;
+    align-items: center;
+}
+
+
+.log > button {
+    border: none;
+    background-color: #198C36;
+    padding: 20px 30px;
+    border-radius: 30px;
+    color: #FBFAF7;
+    
+}
+
+.log > button:hover {
+    background-color: #349059;
+   
+}
+
+
+.log > a {
+    color: #FBFAF7;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 200px;
+    width: 100%;
+    background-color: #163A24;
+}
+
+
+.text {
+   
+    color: white;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-size: 34px;
+}
+
+
+section {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: 130px;
+
+}
+
+
+.woman {
+    display: flex;
+    align-items: center;
+    gap: 112px;
+    font-size: 34px;
+    color: #163A24;
+    
+    
+
+}
+
+
+.man {
+    display: flex;
+    align-items: center;
+    gap: 112px;
+    font-size: 34px;
+    color: #163A24;
+   
+
+}
+
+
+
+.partners  {
+    
+    background-color: #FFFFFF;
+    height: 20vh;
+    text-align: center;
+    color: #163A24;
+   
+
+}
+
+
+.partners > h1 {
+    font-size: 48px;
+}
+
+
+.partners > .logos {
+
+   display: flex;
+  margin-top: 70px;
+  gap: 86px;
+    
+}
+
+
+.production {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 60vh;
+    background-color: #163A24;
+}
+
+
+.production > h1 {
+    font-size: 48px;
+    color: #FBFAF7;
+}
+
+
+
+.shapes {
+    margin-top: 0px;
+    background-color: #F2EFE6;
+    text-align: center;
+    
+    
+    color: #163A24;
+   
+}
+
+
+.shapes > h1 {
+    margin-top: 119px;
+    font-size: 48px;
+}
+
+
+.shapes > p {
+    margin-top: 47px;
+    font-size: 18px;
+
+} 
+
+
+.scenes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 98px;
+    color: #163A24;
+}
+
+.scenes > .together > h1 {
+    font-size: 48px;
+}
+
+.scenes > .together > p {
+margin-top: 27px;
+font-size: 18px;
+}
+
+
+
+.considers > .best {
+    text-align: center;
+
+}
+
+
+
+.considers > .best > p {
+    margin-top: 5px;
+}
+
+
+
+.types {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 200px;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.round {
+ color: #163A24;   
+}
+
+.shield {
+    border: solid;
+    padding: 60px 50px;
+    border: none;
+    box-shadow: 10px 10px 26px 0px #E9E4D5;
+    background-color: #FBFAF7;
+}
+
+.star {
+    border: solid;
+    padding:  60px 50px ;
+    border: none;
+    box-shadow: 10px 10px 26px 0px #E9E4D5;
+    background-color: #FBFAF7;
+}
+
+
+.glasses {
+    border: solid;
+    padding: 60px 50px;
+    border: none;
+    box-shadow: 10px 10px 26px 0px #E9E4D5;
+    background-color: #FBFAF7;
+}
+
+
+.round > div {
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+
+.round > div > i {
+    font-size: 10px;
+}
+
+
+
+.best {
+    font-size: 38px;
+    color: #163A24;
+}
+
+
+.onetwo {
+    text-align: center;
+    font-size: 28px;
+    color: #163A24;
+    margin-top: 114px;
+    
+
+
+}
+
+
+
+
+.minutes {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    
+}
+
+
+
+
+.hours {
+    align-items: center;
+    font-size: 30px;
+    display: flex;
+}
+
+
+.usd {
+    font-size: 30px;
+}
+
+
+.easy {
+    background-color: #F2EFE6;
+    height: 100vh;
+    
+}
+
+
+.onetwo > p {
+    margin-top: 26px;
+}
+
+.time {
+    display: flex;
+    padding: 100px 10px;
+    gap: 80px;
+text-align: center;
+
+    
+}
+
+
+.easy > div > button {
+    border: none;
+    font-size: 18px;
+    background-color: #198C36;
+    padding: 20px 60px;
+    border-radius: 40px;
+    color: #FBFAF7;
+
+}
+
+
+.easy > .bt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+.bt1 > button:hover {
+    background-color: #349059;
+}
+
+
+.bt2 > button {
+    border: none;
+    font-size: 18px;
+    background-color: #198C36;
+    padding: 10px 60px;
+    border-radius: 40px;
+    color: #FBFAF7;
+}
+
+
+
+.bt2 > button:hover {
+    background-color: #349059;
+}
+
+.gmi {
+    border: solid;
+}
+
+.gmi > img {
+width: 1899px;
+}
+
+
+.stay {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.stay > .date {
+    font-size: 48px;
+    color: #163A24;
+}
+
+
+.search {
+    display: flex;
+}
+
+.search > button {
+    border: none;
+    background-color: #15762E;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+
+.search > input {
+    
+
+    border-radius: 30px;
+
+}
+
+.p > a {
+    color: #198C36;
+    text-decoration: none;
+}
+
+
+.footer {
+    border-bottom: solid;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    border-color: #F2EFE6;
+}
+
+
+.footer > h1 {
+    font-size: 48px;
+    color: #198C36;
+}
+
+
+.cow {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+
+
+.cow > div > a {
+    text-decoration: none;
+    color: #198C36;
+   
+    
+}
+
+
+.cow > div {
+    display: flex;
+    gap: 20px;
+}
